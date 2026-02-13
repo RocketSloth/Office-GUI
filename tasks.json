@@ -5,6 +5,12 @@
       "description": "Count jobs where contractor is Driver Pipeline, invoice is blank, and print date is present.",
       "command": ["{python}", "PendingDriverJobs.py"],
       "cwd": "{project_dir}"
+    },
+    {
+      "name": "FCC Missing Data",
+      "description": "Generate missing DateAssigned summary and detail reports from a selected paving export file.",
+      "command": ["{python}", "fcc_missing_data.py"],
+      "cwd": "{project_dir}"
     }
   ]
 }
