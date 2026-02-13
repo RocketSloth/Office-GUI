@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "name": "Pending Driver Jobs",
+      "description": "Count jobs where contractor is Driver Pipeline, invoice is blank, and print date is present.",
+      "command": ["{python}", "PendingDriverJobs.py"],
+      "cwd": "{project_dir}"
+    }
+  ]
+}
